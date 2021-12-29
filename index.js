@@ -2,6 +2,7 @@ const { VK, MessageContext, Keyboard } = require('vk-io');
 const { BOT } = require("./setting_bot/setting_comand.js");
 let bot = new BOT("Bоt");
 
+//Это токен
 const vk = new VK({
     token: '1797d6befdf5054a80df75c9d638678601d274a6b57772a259ba93ac96f58982ea27f7cd8ffc8576ae7b4'
 });
